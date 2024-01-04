@@ -1,0 +1,106 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a {
+    color: #fff;
+}
+
+.banner {
+    height: 70vh;
+    background-image: url(./assets/img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.cards .col {
+    display: flex;
+    justify-content: center;
+}
+
+.card-background {
+    background-color: #fff;
+    margin: 2rem;
+    padding: 4rem 2rem 2rem 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+.card-background img {
+    height: 12rem;
+}
+
+.register-grid {
+    text-align: left;
+    padding: 1.5rem;
+    margin: 2rem;
+    background-color: rgba(128, 128, 128, 0.118);
+    border-radius: 2rem;
+}
+
+.register {
+    margin-right: 3rem;
+}
+
+.current-event {
+    padding: 2rem;
+    margin: 1.5rem 1.5rem 2rem 1.5rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #000000a4;
+    background-image: url(/assets/current-event-bg.jpeg);
+    height: 40vh;
+}
+
+.event-head {
+    font-size: 5rem;
+}
+
+.event-date {
+    font-size: 2rem;
+}
+
+.event-venue {
+    font-size: 1rem;
+}
+
+.upcoming-event {
+    color: #fff;
+    padding: 0 1.5rem;
+}
+
+.upcoming-event h1 {
+    color: #000;
+}
+
+.upcoming-event-1 {
+    background-image: url(/assets/upcoming-event-1.png);
+    height: 30vh;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.upcoming-event-2 {
+    background-image: url(/assets/upcoming-event-2.jpeg);
+    height: 30vh;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.upcoming-event .btn {
+    margin-top: 2rem;
+}
